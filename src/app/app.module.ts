@@ -8,6 +8,9 @@ import { ArtistsComponent } from './artists/artists.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AlbumNameComponent } from './albums/album-name/album-name.component';
+import { ArtistNameComponent } from './artists/artist-name/artist-name.component';
+import { SongsComponent } from './songs/songs.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     ArtistsComponent,
     DashboardComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AlbumNameComponent,
+    ArtistNameComponent,
+    SongsComponent
   ],
   imports: [
     BrowserModule,
