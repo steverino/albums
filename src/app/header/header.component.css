@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #ccc;
+    padding: 0.1rem;
+}
+
+.navbar li{
+    margin-right: 2rem ;
+    display: inline;
+
+}
