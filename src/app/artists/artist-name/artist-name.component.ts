@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Artist } from 'src/app/artist';
-import { ARTIST } from 'src/app/artist-names';
 import { ArtistNamesService } from 'src/app/artist-names.service';
 
 @Component({
@@ -12,8 +10,6 @@ export class ArtistNameComponent implements OnInit {
  
   artists: any;
   
-  todaydate: any;
-
   constructor(private artistNameService: ArtistNamesService) {
 
   }
@@ -21,7 +17,7 @@ export class ArtistNameComponent implements OnInit {
   ngOnInit(): void {
     this.artists = this.artistNameService.getArtistNames();  
     return this.artists;
-    return this.todaydate;
+    
   }
 
 
