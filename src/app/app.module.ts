@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { AlbumNameComponent } from './albums/album-name/album-name.component';
 import { ArtistNameComponent } from './artists/artist-name/artist-name.component';
 import { SongsComponent } from './songs/songs.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,11 +24,13 @@ import { SongsComponent } from './songs/songs.component';
     FooterComponent,
     AlbumNameComponent,
     ArtistNameComponent,
-    SongsComponent
+    SongsComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

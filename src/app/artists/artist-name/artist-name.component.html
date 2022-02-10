@@ -1,22 +1,6 @@
-<ul class="list" >
-  
-  <li>Tom Petty & Heartbreakers</li>
-  <li>The Eagles</li>
-  <li>Fleetwood Mac</li>
-  <li>Paul McCartney & Wings</li>
-  <li>Eric Clapton</li>
-  <li>Boz Scaggs</li>
-  <li>Peter Frampton</li>
-  <li>Daryl Hall & John Oates</li>
-  <li>Jefferson Starship</li>
-  <li>Queen</li>
-  <li>Boston</li>
-  <li>Heart</li>
-  <li>Supertramp</li>
-  <li>David Bowie</li>
-  <li>The Bee Gees</li>
-  <li>The Cars</li>
-  <li>Aerosmith</li>
-  <li>Bob Marley & The Wailers</li>
-  <li>Jimmy Buffet</li>
-</ul>
+<div class="list">
+  <tr *ngFor="let artist of artists">
+    <td>{{ artist.artistName }}</td>
+    
+    </tr>
+</div>
