@@ -14,7 +14,7 @@ export class AlbumNameComponent implements OnInit {
 
   ngOnInit(): void {
     this.albums = this.albumService.getAlbumNames();
-    return this.albums;
+    
   }
 
 }
